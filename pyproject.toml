@@ -1,0 +1,10 @@
+[project]
+name = "my-gis-journey"
+version = "0.1.0"
+description = "learning gis"
+readme = "README.md"
+authors = [
+    { name = "MinLee0210", email = "minh.leduc.0210@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
