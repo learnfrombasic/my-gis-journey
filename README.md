@@ -29,10 +29,11 @@ The project uses Python 3.14 or later. From the repository root, create and acti
 python3.14 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install jupyter pandas numpy matplotlib seaborn geopy folium geopandas shapely
+python -m pip install jupyter pandas numpy matplotlib seaborn geopy folium geopandas shapely pre-commit
+pre-commit install
 ```
 
-The `pyproject.toml` currently contains project metadata but does not declare these notebook dependencies.
+The `pyproject.toml` declares `pre-commit` in its `dev` dependency group, but notebook runtime dependencies are not declared there.
 
 ## Run the Notebooks
 
