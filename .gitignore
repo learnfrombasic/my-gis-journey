@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large local dataset; keep it on disk but out of Git.
+/data/zomato.csv
